@@ -1,0 +1,6 @@
+config for the Olimex-EKG-EMG-Shield
+REF_E: closed
+(The host board does not provide reference voltage on the AREF pin)
+3.3V/5V: 3.3V
+D4/D9: D9
+AIN_SEL: A0
