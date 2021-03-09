@@ -39,3 +39,22 @@ For the measurement of the heart-rate-variability it is necessary to measure an 
 
 
 
+## ecg signal
+
+<img src="documentation/images/ecg-signal.png" alt="hrv-bar" style="zoom:80%;" />
+
+## heart-rate-variability
+
+<img src="documentation/images/hrv-bar.png" alt="hrv-bar" style="zoom:80%;" />
+
+<img src="documentation/images/hrv-histo-scatter.png" alt="hrv-bar" style="zoom:80%;" />
+
+
+
+## iir-notch-filter
+
+<img src="documentation/images/iir-notch-filter.png" alt="hrv-bar" style="zoom:100%;" />
+
+## r-peak-detection
+
+<img src="documentation/images/r-peak-detection.png" alt="hrv-bar" style="zoom:100%;" />
