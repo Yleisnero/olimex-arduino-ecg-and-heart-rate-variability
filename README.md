@@ -9,3 +9,33 @@ For the measurement of the heart-rate-variability it is necessary to measure an 
 <img src="documentation/images/arduino-olimex-2.jpg" style="zoom:50%;" />
 
 <img src="documentation/images/arduino-olimex-3.jpg" style="zoom: 77%;" />
+
+
+
+## how-to
+
+- Put the Olimex-EKG-EMG-Shield on top of the Arduino
+
+- Attach the Arduino Uno to the computer 
+
+- Upload the [olimex-shield-data-collector.ino](arduino-scripts/olimex-shield-data-collector/olimex-shield-data-collector.ino) to the Arduino
+
+- Plug in the electrodes and attach them to the subject
+
+- Run the [data-receiver.js](nodejs-scripts/data-receiver.js) inside a node.js project
+
+  ```
+  npm install serialport
+  node data-receiver.js
+  ```
+
+- Check if the port is specified correctly in the data-receiver.js script
+- An output txt file will be generated 
+- Use the file as input for [displayData.m](matlab-scripts/displayData.m)
+
+
+
+(simpler version of a ecg plotter: [olimex-serialplotter.ino](arduino-scripts/olimex-serialplotter/olimex-serialplotter.ino)
+
+
+
